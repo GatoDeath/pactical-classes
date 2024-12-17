@@ -3,7 +3,8 @@
 // import ObjectsLiterals from "./typescript/ObjectsLiterals";
 // import Counter from "./components/Counter";
 
-import LoginPage from "./components/LoginPage";
+// import LoginPage from "./components/LoginPage";
+import UserPage from "./components/UserPage";
 import { AuthProvider } from "./contex/AuthContext";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         {/* <ObjectsLiterals /> */}
         {/* <BasicFuntions /> */}
         {/* <Counter /> */}
-        <LoginPage />
+        {/* <LoginPage /> */}
+        <UserPage/>
       </div>
     </AuthProvider>
   );
